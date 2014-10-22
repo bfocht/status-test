@@ -1,0 +1,5 @@
+.off, .on
+{ display: inline-block; background: url('switch.jpg') no-repeat; overflow: hidden; text-align: left; border:0; cursor:pointer;}
+ 
+.on { background-position: -0px -0px; width: 162px; height: 345px; }
+.off { background-position: -150px -0px; width: 162px; height: 345px; }

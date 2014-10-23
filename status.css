@@ -1,5 +1,18 @@
-.off, .on
-{ display: inline-block; background: url('switch.jpg') no-repeat; overflow: hidden; text-align: left; border:0; cursor:pointer;}
+.off, .on{
+  display: inline-block;
+  background: url('switch.jpg') no-repeat;
+  overflow: hidden;
+  text-align: left;
+  border:0;
+  cursor:pointer;
+ }
  
 .on { background-position: -0px -0px; width: 162px; height: 345px; }
 .off { background-position: -150px -0px; width: 162px; height: 345px; }
+
+.github-forkme{
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+}

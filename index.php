@@ -31,6 +31,7 @@
 <html>
     <head>
    <title>Status Test Page</title>
+   <meta name="description" content="<?php echo "The status of the site is $status" ?>">
    <link rel="stylesheet" href="status.css">
   </head>
   <body>

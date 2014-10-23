@@ -18,6 +18,7 @@ class Database{
     mysqli_stmt_fetch($stmt);
     mysqli_stmt_close($stmt);
     $mysqli->close();
+    if (empty($status)) return $default;
     return $status;
   }
   
